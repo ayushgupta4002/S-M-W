@@ -3,6 +3,7 @@ import Navbar from '../Components/Navbar'
 import ProfileBanner from '../Components/ProfilePage/ProfileBanner'
 import ProfileCard from '../Components/ProfileCard'
 import SideComponentProfile from '../Components/ProfilePage/SideComponentProfile'
+import Tabs from '../Components/ProfilePage/Tabs'
 
 function ProfilePage() {
   return (
@@ -11,23 +12,14 @@ function ProfilePage() {
       <hr></hr>
       <div className='flex flex-col p-3 ml-[3%] mr-[3%]'>
         <ProfileBanner />
+        <div className='flex flex-row md:flex-col justify-between'>
         <SideComponentProfile/>
+        <div className='flex flex-col'>
+        <Tabs/>
 
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
+        </div>
+        
+        </div>
       </div>
     </div>
 
