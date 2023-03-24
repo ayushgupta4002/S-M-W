@@ -3,7 +3,7 @@ import React from 'react'
 function ProfileBanner() {
   return (
     <div>
-    <div class=" w-[94%] h-[53vh] sm:h-[58vh] xsm:h-[68vh] pb-8 lg:h-[51vh] bg-white rounded dark:bg-gray-800 shadow-lg  duration-200  ml-[3%] mr-3 ">
+    <div class=" w-[100%] h-[53vh] sm:h-[58vh] xsm:h-[68vh] pb-8 lg:h-[51vh] bg-white rounded dark:bg-gray-800 shadow-lg  duration-200  ">
     <div class="h-[35%]  overflow-hidden">
       <img class="w-full rounded-t"
         src="https://images.unsplash.com/photo-1638803040283-7a5ffd48dad5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
