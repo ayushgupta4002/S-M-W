@@ -3,7 +3,7 @@ import React from 'react'
 function SideComponentProfile() {
   return (
 
-    <div class="mt-6  xmd:w-[42vw] nm:w-[100%] lg:w-[35vw] flex-end w-[29.7vw] overflow-hidden rounded-3xl bg-white text-sm leading-6 shadow-lg ring-1 ring-gray-900/5">
+    <div class="mt-6  xmd:w-[42vw] xnm:w-[100%] lg:w-[35vw] flex-end w-[29.7vw] overflow-hidden rounded-3xl bg-white text-sm leading-6 shadow-lg ring-1 ring-gray-900/5">
       <div class="p-3">
         <div class="group relative flex gap-x-4 rounded-lg p-2 hover:bg-gray-50">
           <div class=" flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
