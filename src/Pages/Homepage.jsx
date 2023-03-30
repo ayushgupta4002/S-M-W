@@ -31,13 +31,24 @@ function Homepage() {
 
                 <div className='flex flex-col mb-3 ml-[30vw] xmd:ml-[0vw]'>
                <CreatePostCrad/>
-                <PostCard></PostCard>
+               <div className='mt-2  ml-[5%]  w-[37vw] xmd:w-[60vw] xmd:mx-[20%] '>
                 <PostCard/>
+                </div>
+                <div className='mt-2  ml-[5%]  w-[37vw] xmd:w-[60vw] xmd:mx-[20%] '>
                 <PostCard/>
+                </div>
+                <div className='mt-2  ml-[5%]  w-[37vw] xmd:w-[60vw] xmd:mx-[20%] '>
                 <PostCard/>
+                </div>
+                <div className='mt-2  ml-[5%]  w-[37vw] xmd:w-[60vw] xmd:mx-[20%] '>
                 <PostCard/>
+                </div>
+                <div className='mt-2  ml-[5%]  w-[37vw] xmd:w-[60vw] xmd:mx-[20%] '>
                 <PostCard/>
+                </div>
+                <div className='mt-2  ml-[5%]  w-[37vw] xmd:w-[60vw] xmd:mx-[20%] '>
                 <PostCard/>
+                </div>
 
 
                 </div>

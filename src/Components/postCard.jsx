@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function PostCard() {
   return (
 <Link to={`/post`}>
-    <div class="container mx-auto flex flex-wrap text-gray-600 body-font bg-white rounded-md mt-2  ml-[5%]  w-[37vw] xmd:w-[60vw] xmd:mx-[20%] " >
+    <div class="container mx-auto flex flex-wrap text-gray-600 body-font bg-white rounded-md " >
       <div class="flex  ">
         <div class="p-2 pl-3 md:w-full">
           <div class="flex   sm:flex-col flex-col">
