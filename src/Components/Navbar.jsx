@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react'
 
 function Navbar() {
     const [login, setLogin] = useState(false)
+    
   return (
     <nav class="flex sticky top-0  justify-between items-center w-[100%] px-4 border-bottom border-gray-600 bg-white mx-auto  ">
     <div className='flex '>
@@ -27,9 +28,9 @@ function Navbar() {
                 <a class="hover:text-gray-500 md:hidden w-3" href="#">Trending</a>
 
             </li>
-            <li>
-                <img class="w-10 pl-5  md:pl-1 md:w-8 cursor-pointer" src="google.png" alt="..."></img>
-                <a class="hover:text-gray-500 md:hidden" href="#">Trending</a>
+            <li className='items-center'>
+                <img class="w-10 pl-3 md:pl-1 md:w-8 cursor-pointer" src="google.png" alt="..."></img>
+                <a class="hover:text-gray-500 md:hidden pl-3" href="#"> you</a>
 
             </li>
 
